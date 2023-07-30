@@ -1,0 +1,224 @@
+*{
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+     }  
+     html,body{
+        width: 100%;
+        height: 100%;
+        background-color: #FFF;
+     
+     } 
+    .body-container{
+        display: flex; 
+        height: 100%;
+    }  
+    .aside{
+     
+        height: 100%;
+        width: 220px;
+    
+    }
+    .main-container{
+        height: 100%;
+        width:1220px;     
+        box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
+    }
+    #logo{
+        height: 36px;
+        width: 180px;
+        display: inline-block;
+        margin: 20px;
+   
+        
+    }
+    .header{
+        height: 60px;
+        width: 100%;
+        box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
+
+     
+    }
+    .navigation{
+        width: 200px;
+        height: 372px;
+        margin: 20px;
+        list-style: none;
+    
+     
+    
+
+    }
+    .navigation > li{
+        width: 170px;
+        height: 36px;
+        padding-left:30px;
+        padding-top: 9px;
+        padding-bottom: 10px;
+        margin: 10px;
+        align-items: center;     
+       
+    }
+    .navigation > img{
+        height: 50px;
+        width: 50px;
+    }
+   a{
+    text-decoration: none;
+    color: #4A4A4A;
+    font-family: Inter;
+    font-size: 14px;
+    margin: 5px;
+   }
+   #myclients{
+    
+    box-sizing: 5px;
+    border-radius: 5px;
+    background: #004CFF;
+
+   }
+   #client{
+    color: #FFF;
+   }
+
+#image1{
+    width: 18px;
+    height: 12px;
+    margin-left: 30px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+#image2{
+    margin-left: 40px;
+    margin-top: 21px;
+    margin-bottom: 23px;
+    width: 16px;
+height: 16px;
+flex-shrink: 0;
+}
+#image3{
+    margin-left: 850px;
+    margin-top: 20.5px;
+    margin-bottom: 22.5px;
+    width: 15px;
+height: 16.793px;
+}
+
+#image4{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#image5{ 
+    width: 24px;
+    height: 24px;
+    margin-left:8px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+}
+.header-content{
+    display: flex;
+}
+#head1{
+    margin-left:8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 67px;
+    height: 19px;
+    color: #000;
+
+}
+#Search{
+    width: 124px;
+    height: 19px;
+    margin-top:37px ;
+margin-left: 797px;   
+}
+#head2{
+    color: #000;
+font-family: Inter;
+font-size: 18px;
+}
+#head3{
+ margin-top: 20px;
+color: #000;
+font-family: Inter;
+font-size: 18px;
+}
+#link a{ 
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    font-size: 10px;
+}
+.form1{
+       color:  #20102B;
+font-family: Mulish;
+font-size: 14px;
+
+}
+.form-content> label{
+    display: inline-block;
+    color: #20102B;
+font-family: Mulish;
+font-size: 14px;
+width: calc(80%/4);
+margin-top: 10px;
+margin-left: 20px;
+
+}
+.form-content >input{
+    color: #999;
+font-family: Mulish;
+font-size: 16px;
+margin-top: 10px;
+display: inline-block;
+margin-left: 20px;
+width: calc(80%/4);
+
+
+}
+table{
+   
+   width: 1100px;
+   height:66px;
+   border-collapse: collapse;
+   background-color:  #F4F4F4;
+   margin-top: 30px;
+
+}
+
+table th,td{
+   border-radius: 3px;
+   padding: 0%;
+   margin: 0%;
+
+   text-align: left;
+   align-items:center;
+}
+   #edit{
+    width: 18.002px;
+height: 18px;
+margin-top: 20px;
+
+
+   }
+   #delete{
+    width: 18.002px;
+height: 18px;
+margin-left: 15px;
+
+   }
+   button{color: #FFF;
+font-family: Mulish;
+font-size: 14px;
+size: 30px;
+background-color: #FF8000;
+margin-left: 80px;
+
+   }
